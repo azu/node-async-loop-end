@@ -1,5 +1,5 @@
-// 1000 items in the array
-const items = Array.from({ length: 1000 }, (_, i) => i);
+// 100 items in the array
+const items = Array.from({ length: 100 }, (_, i) => i);
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 console.log("!!Start");
